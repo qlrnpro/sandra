@@ -1,0 +1,12 @@
+name = "sandra"
+license = "MIT"
+licenselink = "https://github.com/qlrnpro/sandra/blob/master/LICENSE.md"
+description = "A simple open source theme for publishing with hugo"
+homepage = "https://github.com/qlrnpro/sandra"
+tags = ["blog", "staticman", "simple", "dark", "minimalist", "fast", "light"]
+features = ["blog", "staticman", "simple", "dark", "minimalist", "fast"]
+min_version = "0.57.0"
+
+[author]
+    name ="nadin"
+    homepage = "https://github.com/qlrnpro/sandra"
