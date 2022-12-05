@@ -7,6 +7,7 @@
     {{- $pages = where $.Site.RegularPages "Section" $filteredPosts }}
   {{- end }}
 {{- end }}
+{{- partial "ads" . }}
 <ul class='posts wrap' id = 'posts'>
   {{- range (.Paginate $pages).Pages }}
     {{- partial "excerpt" . }}
