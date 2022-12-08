@@ -17,6 +17,18 @@
 </section>
 {{- end }}
 <div class = '{{ if .Params.full }}wrap post{{ else }}post{{ end }}'>
+  <center>
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'b42896b5c94d205b6ce4dbc298011aba',
+        'format' : 'iframe',
+        'height' : 50,
+        'width' : 320,
+        'params' : {}
+      };
+      document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://vulnerableimmigrateaboveaverage.com/b42896b5c94d205b6ce4dbc298011aba/invoke.js"></scr' + 'ipt>');
+    </script>
+  </center>
   <article class='post_content'>
     {{- .Content }}
     {{ if in $p.mainSections .Type }}
@@ -35,6 +47,7 @@
     {{- partial "aside" . }}
   </aside>
   {{ end }}
+  {{- partial "ads2" . }}
 </div>
 <script src = '{{ absURL "js/autosize.min.js" }}'></script>
 {{- $timeagoScr := resources.Get "js/timeago.js" | resources.ExecuteAsTemplate "js/timeago.js" . }}
